@@ -1,0 +1,27 @@
+stat_category,amount
+Player1,Nathan MacKinnonCOL Season ending in 2018
+SP1WGoals,22
+SP1WAssists,18
+SP1WAssists2,6
+SP1OTLGoals,2
+SP1OTLAssists,4
+SP1OTLAssists2,3
+SP1Goals2Comb,24
+SP1WAComb,24
+SP1OTLAComb2,7
+Player2,Taylor HallNJD Season ending in 2018
+SP2WGoals,17
+SP2WAssists,18
+SP2WAssists2,14
+SP2OTLGoals,6
+SP2OTLAssists,2
+SP2OTLAssists2,1
+SP2Goals2Comb,23
+SP2WAComb,32
+SP2OTLAComb2,3
+team1_total,112
+team2_total,145
+team1_name,COL total goals in 2018
+team2_name,NJD total goals in 2018
+percent1,Percent of team goals involving Nathan MacKinnon
+percent2,Percent of team goals involving Taylor Hall

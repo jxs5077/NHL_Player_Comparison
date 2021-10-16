@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<head>
+  
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+</head>
+<style>
+ 
+  div.a {
+  width: 700px;
+  word-wrap: break-word;
+}
+</style>
+<body>
+
+    <H1>Player Comparison Results</H1>
+
+    
+    <div class="a">
+      The following graphs compare the performance of the two searched players for their respective selected season. This data differs from standard 
+      season data as there were restrictions on which goals and assists would count so that only goals that helped the team win were counted. 
+      <br>
+      <br>
+      The restrictions are as follows:
+      <br>
+      <br>
+      1) Any game where the searched player's team loses in regulation is completely removed as the team did not earn any points in the standings.
+      <br>
+      <br>
+      2) For games that went into overtime, all goals by the searched player count, as all goals were needed to gain the 2 standings points for a win, or
+      the single standings point for an overtime loss.
+      <br>
+      <br>
+      3) Shootout goals were not counted, as they do not count in standard goal totals.
+      <br>
+      <br>
+      4) For games that the searched player's team wins in regulation, only the goals scored up to the Game Winning Goal (losing teams' goal total + 1) are counted.
+      <br>
+      <br>
+      Example: Searched player's team wins 5-2, only the first 3 goals scored by the winning team will be counted, as the remaining 2 goals were not required
+      to win the game.
+      </div>
+
+    </div>
+    <div class="container">
+
+        <div class="col-lg-12">
+
+            <div class="col-sm-6" id="bar_plot" style="width:40%" float: left>
+            <script src='WGALGA.js'></script>
+            </div>
+
+            <div class="col-sm-6" id="total_bar" style="width:40%" float: right>
+            <script src='total_stack.js'></script>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="a">
+          In the following two graphs, the green bar shows the percent of the team's total goals that the searched player was involved in, either by
+          scoring the goal, or providing a primary or secondary assist to the goal scorer. The higher the percentage, the more that player was reponsible 
+          for his team's success, thus being more valuable to the team.
+        </div>
+        <div class="row">
+            <div class="col-sm-6" id="percent" style="width:40%">
+            <script src='scoring_percent1.js'></script>
+            </div>
+
+            <div class="col-sm-6" id="percent2" style="width:40%">
+            <script src='scoring_percent2.js'></script>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+    
+</body>
+</html>
+
