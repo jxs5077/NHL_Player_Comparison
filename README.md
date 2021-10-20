@@ -33,6 +33,7 @@ Split Goals and Assists - Each player's goals and assist totals compared to each
 ![splittotals](https://user-images.githubusercontent.com/75753889/137570283-c7193e44-8b6f-46d1-a469-8c928f6ac8c8.jpg)
 
 Combined Goals and Assists - Each player's combined goals, primary assists, and secondary assists compared to each other.
+<br>
 ![combinedtotals](https://user-images.githubusercontent.com/75753889/137570319-d194aca8-a7eb-46f6-b1d2-43860459f1e1.jpg)
 
 Percent Of Team Goals Player Was Involved In
